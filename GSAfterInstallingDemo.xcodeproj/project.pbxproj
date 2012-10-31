@@ -16,7 +16,7 @@
 		92EABEA21641D8A100EB7F03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EABEA11641D8A100EB7F03 /* Default.png */; };
 		92EABEA41641D8A100EB7F03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EABEA31641D8A100EB7F03 /* Default@2x.png */; };
 		92EABEA61641D8A100EB7F03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EABEA51641D8A100EB7F03 /* Default-568h@2x.png */; };
-		92EABEB21641D8E400EB7F03 /* GSAfterInstalling.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EABEB11641D8E400EB7F03 /* GSAfterInstalling.m */; };
+		92EABEB61641E1A800EB7F03 /* GSAfterInstalling.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EABEB51641E1A800EB7F03 /* GSAfterInstalling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		92EABEA11641D8A100EB7F03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		92EABEA31641D8A100EB7F03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		92EABEA51641D8A100EB7F03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		92EABEB01641D8E400EB7F03 /* GSAfterInstalling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAfterInstalling.h; sourceTree = "<group>"; };
-		92EABEB11641D8E400EB7F03 /* GSAfterInstalling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAfterInstalling.m; sourceTree = "<group>"; };
+		92EABEB41641E1A800EB7F03 /* GSAfterInstalling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAfterInstalling.h; sourceTree = "<group>"; };
+		92EABEB51641E1A800EB7F03 /* GSAfterInstalling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAfterInstalling.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		92EABE951641D8A100EB7F03 /* GSAfterInstallingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				92EABEAF1641D8E400EB7F03 /* GSAfterInstalling */,
+				92EABEB31641E1A800EB7F03 /* GSAfterInstalling */,
 				92EABE9E1641D8A100EB7F03 /* AppDelegate.h */,
 				92EABE9F1641D8A100EB7F03 /* AppDelegate.m */,
 				92EABE961641D8A100EB7F03 /* Supporting Files */,
@@ -103,14 +103,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92EABEAF1641D8E400EB7F03 /* GSAfterInstalling */ = {
+		92EABEB31641E1A800EB7F03 /* GSAfterInstalling */ = {
 			isa = PBXGroup;
 			children = (
-				92EABEB01641D8E400EB7F03 /* GSAfterInstalling.h */,
-				92EABEB11641D8E400EB7F03 /* GSAfterInstalling.m */,
+				92EABEB41641E1A800EB7F03 /* GSAfterInstalling.h */,
+				92EABEB51641E1A800EB7F03 /* GSAfterInstalling.m */,
 			);
 			path = GSAfterInstalling;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -179,7 +179,7 @@
 			files = (
 				92EABE9C1641D8A100EB7F03 /* main.m in Sources */,
 				92EABEA01641D8A100EB7F03 /* AppDelegate.m in Sources */,
-				92EABEB21641D8E400EB7F03 /* GSAfterInstalling.m in Sources */,
+				92EABEB61641E1A800EB7F03 /* GSAfterInstalling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
