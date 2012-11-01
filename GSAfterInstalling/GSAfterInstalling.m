@@ -16,11 +16,11 @@
     
     if (self)
     {
-        NSUserDefaults *defaults = NSUserDefaults.standardUserDefaults;
-        
-        if (![defaults boolForKey:afterInstallingKey])
+        if (![NSUserDefaults.standardUserDefaults boolForKey:afterInstallingKey])
         {
             [self afterInstallingActions];
+            
+            NSUserDefaults *defaults = NSUserDefaults.standardUserDefaults;
             [defaults setBool:YES forKey:afterInstallingKey];
             [defaults synchronize];
         }
